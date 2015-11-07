@@ -1,3 +1,5 @@
+import sys
+
 from . import corpora
 from . import oec
 from .types import RandomStack
@@ -43,10 +45,15 @@ class Story:
 
         chapters = []
         for i in range(1, num_chapters + 1):
-            system = systems.pop()
+            try:
+                system = systems.pop()
+                name = names.pop()
+            except IndexError:
+                sys.stderr.write('Warning: Reached a maximum of {} chapters.\n'
+                                 .format(i - 1))
+                break
             star = system.random_star()
             planet = star.random_planet()
-            name = names.pop()
             chapters.append(Chapter(i, planet, name))
         self.chapters = chapters
 
