@@ -32,7 +32,7 @@ class RandomStack:
         return len(self.unseen)
 
     def pop(self):
-        # raises IndexError if no more stars or binaries
+        # raises IndexError if no more entries
         child = self.unseen.pop()
         self.seen.append(child)
         return child

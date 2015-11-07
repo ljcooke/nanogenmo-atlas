@@ -2,6 +2,8 @@ import json
 import os
 from glob import glob
 
+from .util import titlecase
+
 
 DATA_DIR = 'data/corpora/data'
 
@@ -30,7 +32,7 @@ def planet_names():
     names += many['gods'] + many['goddesses']
 
     return set(filter(bool,
-                      (name.split()[0] for name in names)))
+                      (titlecase(name.split()[0]) for name in names)))
 
 
 if __name__ == '__main__':

@@ -1,19 +1,9 @@
 from . import corpora
 from . import oec
 from .types import RandomStack
-from .util import titlecase
 
 
 DEFAULT_NUM_CHAPTERS = 50
-
-
-#class Section:
-#
-#    def __init__(self, system, chapters):
-#        self.system = system
-#        self.chapters = chapters
-#        self.title = system.name
-
 
 
 class Chapter:
@@ -38,7 +28,7 @@ class Story:
             system = systems.pop()
             star = system.random_star()
             planet = star.random_planet()
-            name = titlecase(planet_names.pop())
+            name = planet_names.pop()
             chapters.append(Chapter(i, planet, name))
         self.chapters = chapters
 
