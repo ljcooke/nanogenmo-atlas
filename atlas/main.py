@@ -17,12 +17,14 @@ PREREQUISITES = (oec.EXOPLANET_CORPUS,
                  corpora.DATA_DIR)
 
 
-def print_stats():
-    divider = '=' * 78
-
+def print_stats(num_chapters):
+    divider = '=' * 40
     print(divider)
-    exoplanets = oec.Exoplanets()
-    exoplanets.print_stats()
+
+    oec.Exoplanets().print_stats()
+    print(divider)
+
+    story.Story(num_chapters=num_chapters).print_stats()
     print(divider)
 
 def check_exists(path):
@@ -57,7 +59,7 @@ def main():
         for number, title in atlas.contents():
             print('{}. {}'.format(number, title))
     elif args.action == 'stats':
-        print_stats()
+        print_stats(num_chapters=args.chapters)
     else:
         parser.print_help()
         return 1

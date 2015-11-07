@@ -1,4 +1,5 @@
 import sys
+from itertools import chain
 
 from . import corpora
 from . import oec
@@ -33,6 +34,13 @@ class Chapter:
         self.human_name = name
         self.sci_name = planet.name
         self.title = '{} ({})'.format(self.human_name, self.sci_name)
+        self.paragraphs = [
+            'Hello, world.'
+        ]
+
+    def word_count(self):
+        words = chain.from_iterable(p.split() for p in self.paragraphs)
+        return sum(1 for w in words if len(w) > 1)
 
 
 class Story:
@@ -60,3 +68,12 @@ class Story:
     def contents(self):
         for i, chapter in enumerate(self.chapters):
             yield (i + 1, chapter.title)
+
+    def word_count(self):
+        return sum(ch.word_count() for ch in self.chapters)
+
+    def print_stats(self):
+        print('GENERATED STORY')
+        print('')
+        print('Chapter Count:     %8d.' % len(self.chapters))
+        print('Word Count:        %8d.' % self.word_count())
