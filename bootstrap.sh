@@ -33,13 +33,14 @@ cd data
 #------------------------------------------------------------------------------
 echotask 'Open Exoplanet Catalogue'
 
-if [ ! -e oec-systems.xml ] || promptupdate; then
+fn=oec-systems.xml
+if [ ! -e $fn ] || promptupdate; then
     echo Downloading
     url=https://github.com/OpenExoplanetCatalogue/oec_gzip/raw/master/systems.xml.gz
-    curl -L -\# "$url" > oec-systems.xml.gz
+    curl -L -\# "$url" > $fn.gz
     echo Unzipping
-    rm -f oec-systems.xml
-    gunzip -v oec-systems.xml.gz
+    [ -e $fn ] && mv $fn $fn.bak
+    gunzip -v $fn.gz
 fi
 
 #------------------------------------------------------------------------------
