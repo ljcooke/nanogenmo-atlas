@@ -2,59 +2,61 @@
 
 ## Contents
 
-1. [**Ullr** (Kepler-312 B)](#ch1)
-2. [**Ares** (Kepler-187 B)](#ch2)
-3. [**Thor** (Hd 99706 B)](#ch3)
-4. [**Ēostre** (Hd 46375 A B)](#ch4)
-5. [**Viðarr** (Kepler-29 B)](#ch5)
-6. [**Lavender** (Hd 102329 B)](#ch6)
-7. [**Flagrate** (Hd 4313 B)](#ch7)
-8. [**Reducto** (Wasp-112 B)](#ch8)
-9. [**Begonia** (Hd 148427 B)](#ch9)
-10. [**Stupefy** (Psr J1719-1438 B)](#ch10)
-11. [**Fidelius** (55 Cnc D)](#ch11)
-12. [**Reducio** (Ogle-tr-10 B)](#ch12)
-13. [**Oppugno** (Hip 67851 B)](#ch13)
-14. [**Athena** (Kepler-37 B)](#ch14)
-15. [**Freyja** (Epic 201465501 B)](#ch15)
-16. [**Pack** (Kepler-439 B)](#ch16)
-17. [**Atlas** (Omi Crb B)](#ch17)
-18. [**Marigold** (Hd 100546 B)](#ch18)
-19. [**Rán** (Pr0211 B)](#ch19)
-20. [**Dione** (Bd-082823 B)](#ch20)
-21. [**Water** (Koi-195 B)](#ch21)
-22. [**Sif** (Hats-2 B)](#ch22)
-23. [**Imperio** (Hd 108341 B)](#ch23)
-24. [**Eos** (Hd 114729 A B)](#ch24)
-25. [**Rosemary** (Hd 192699 B)](#ch25)
-26. [**Hestia** (Wasp-65 B)](#ch26)
-27. [**Metis** (Gu Psc B)](#ch27)
-28. [**Snotra** (Hd 177830 A C)](#ch28)
-29. [**Thalassa** (Kepler-200 C)](#ch29)
-30. [**Ophion** (Kepler-270 B)](#ch30)
-31. [**Flipendo** (Kepler-54 B)](#ch31)
-32. [**Lóðurr** (Hd 40307 G)](#ch32)
-33. [**Protego** (Wasp-42 B)](#ch33)
-34. [**Violet** (Hd 73526 C)](#ch34)
-35. [**Vár** (Hd 24064 B)](#ch35)
-36. [**Thyme** (Corot-5 B)](#ch36)
-37. [**Hades** (Hd 207832 C)](#ch37)
-38. [**Diffindo** (Hd 114386 C)](#ch38)
-39. [**Bragi** (Hd 28678 B)](#ch39)
-40. [**Iris** (Kepler-314 C)](#ch40)
-41. [**Phanes** (Hd 148156 B)](#ch41)
-42. [**Vili** (Hd 67087 C)](#ch42)
-43. [**Geminio** (Hd 108874 C)](#ch43)
-44. [**Roses** (Kepler-133 C)](#ch44)
-45. [**Theia** (Hd 189567 B)](#ch45)
-46. [**Hermes** (Wasp-39 B)](#ch46)
-47. [**Phoebe** (Beta Ursae Minoris B)](#ch47)
-48. [**Obscuro** (Wasp-63 B)](#ch48)
-49. [**Nyx** (16 Cygni B B)](#ch49)
-50. [**Sigyn** (Koi-830 B)](#ch50)
+1. [**Lóðurr** (Hat-p-45 B)](#ch1)
+2. [**Peach** (Wasp-82 B)](#ch2)
+3. [**Diffindo** (Kepler-341 E)](#ch3)
+4. [**Cave** (Wasp-84 B)](#ch4)
+5. [**Selene** (Kepler-21 B)](#ch5)
+6. [**Vár** (Kepler-274 C)](#ch6)
+7. [**Accio** (Ph3 C)](#ch7)
+8. [**Iðunn** (Kepler-272 D)](#ch8)
+9. [**Rán** (Hat-p-22 B)](#ch9)
+10. [**Athena** (Kepler-347 B)](#ch10)
+11. [**Helios** (Kepler-249 D)](#ch11)
+12. [**Zisa** (Kepler-226 B)](#ch12)
+13. [**Daisy** (Kepler-188 C)](#ch13)
+14. [**Sigyn** (Kepler-389 B)](#ch14)
+15. [**Zinnia** (Kepler-155 C)](#ch15)
+16. [**Erebus** (Kepler-107 B)](#ch16)
+17. [**Tulip** (Kepler-148 C)](#ch17)
+18. [**Apollo** (Kepler-265 E)](#ch18)
+19. [**Freesia** (Kepler-280 B)](#ch19)
+20. [**Nox** (Kepler-28 C)](#ch20)
+21. [**Eurybia** (Ct Cha B)](#ch21)
+22. [**Ēostre** (Kepler-271 B)](#ch22)
+23. [**Bergamot** (Kepler-385 C)](#ch23)
+24. [**Repello** (Kepler-241 B)](#ch24)
+25. [**Themis** (Corot-25 B)](#ch25)
+26. [**Ladys** (Hat-p-13 B)](#ch26)
+27. [**Lumos** (Kepler-75 B)](#ch27)
+28. [**Lotus** (Kepler-314 C)](#ch28)
+29. [**Dionysus** (Kepler-412 B)](#ch29)
+30. [**Perses** (Kepler-216 C)](#ch30)
+31. [**Relashio** (Kepler-278 C)](#ch31)
+32. [**Lavender** (Koi-192 B)](#ch32)
+33. [**Hermóðr** (Wasp-2 A B)](#ch33)
+34. [**Duro** (Wasp-24 B)](#ch34)
+35. [**Flipendo** (Kepler-392 B)](#ch35)
+36. [**Geminio** (Kepler-54 B)](#ch36)
+37. [**Glisseo** (Koi-1576.03)](#ch37)
+38. [**Reparo** (Hat-p-57 B)](#ch38)
+39. [**Hera** (Pots-1 B)](#ch39)
+40. [**Forget** (Koi-135 B)](#ch40)
+41. [**Hypnos** (Kepler-245 B)](#ch41)
+42. [**Violet** (Wasp-7 B)](#ch42)
+43. [**Primrose** (Kepler-29 C)](#ch43)
+44. [**Point** (Wasp-3 B)](#ch44)
+45. [**Lofn** (Hat-p-49 B)](#ch45)
+46. [**Coeus** (Kepler-111 B)](#ch46)
+47. [**Aether** (Kepler-83 D)](#ch47)
+48. [**Protego** (Epic 201577035 B)](#ch48)
+49. [**Quietus** (Kepler-365 B)](#ch49)
+50. [**Heather** (Kepler-246 B)](#ch50)
 
-## <a name="ch1"></a>Ullr (Kepler-312 B)
+## <a name="ch1"></a>Lóðurr (Hat-p-45 B)
 
+1.4 Jupiter radii &nbsp;|&nbsp; 458.3 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -130,8 +132,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch2"></a>Ares (Kepler-187 B)
+## <a name="ch2"></a>Peach (Wasp-82 B)
 
+1.7 Jupiter radii &nbsp;|&nbsp; 4.1 trillion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -206,8 +210,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
+
+## <a name="ch3"></a>Diffindo (Kepler-341 E)
 
-## <a name="ch3"></a>Thor (Hd 99706 B)
+2.0 Earth radii &nbsp;|&nbsp; 19.3 billion inhabitants
 
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -284,8 +290,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch4"></a>Ēostre (Hd 46375 A B)
+## <a name="ch4"></a>Cave (Wasp-84 B)
 
+10.7 Earth radii &nbsp;|&nbsp; 1.4 trillion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -361,8 +369,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch5"></a>Viðarr (Kepler-29 B)
+## <a name="ch5"></a>Selene (Kepler-21 B)
 
+1.6 Earth radii &nbsp;|&nbsp; 33.7 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -437,8 +447,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
+
+## <a name="ch6"></a>Vár (Kepler-274 C)
 
-## <a name="ch6"></a>Lavender (Hd 102329 B)
+1.8 Earth radii &nbsp;|&nbsp; 13.9 billion inhabitants
 
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -515,8 +527,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch7"></a>Flagrate (Hd 4313 B)
+## <a name="ch7"></a>Accio (Ph3 C)
 
+2.6 Earth radii &nbsp;|&nbsp; 102.1 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -592,8 +606,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch8"></a>Reducto (Wasp-112 B)
+## <a name="ch8"></a>Iðunn (Kepler-272 D)
 
+2.2 Earth radii &nbsp;|&nbsp; 39.2 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -668,8 +684,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
+
+## <a name="ch9"></a>Rán (Hat-p-22 B)
 
-## <a name="ch9"></a>Begonia (Hd 148427 B)
+1.1 Jupiter radii &nbsp;|&nbsp; 1.2 trillion inhabitants
 
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -746,8 +764,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch10"></a>Stupefy (Psr J1719-1438 B)
+## <a name="ch10"></a>Athena (Kepler-347 B)
 
+2.0 Earth radii &nbsp;|&nbsp; 29.5 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -823,8 +843,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch11"></a>Fidelius (55 Cnc D)
+## <a name="ch11"></a>Helios (Kepler-249 D)
 
+1.6 Earth radii &nbsp;|&nbsp; 10.6 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -899,8 +921,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
+
+## <a name="ch12"></a>Zisa (Kepler-226 B)
 
-## <a name="ch12"></a>Reducio (Ogle-tr-10 B)
+1.5 Earth radii &nbsp;|&nbsp; 4.0 billion inhabitants
 
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -977,8 +1001,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch13"></a>Oppugno (Hip 67851 B)
+## <a name="ch13"></a>Daisy (Kepler-188 C)
 
+3.2 Earth radii &nbsp;|&nbsp; 128.4 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -1054,8 +1080,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch14"></a>Athena (Kepler-37 B)
+## <a name="ch14"></a>Sigyn (Kepler-389 B)
 
+1.5 Earth radii &nbsp;|&nbsp; 25.3 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -1130,8 +1158,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
+
+## <a name="ch15"></a>Zinnia (Kepler-155 C)
 
-## <a name="ch15"></a>Freyja (Epic 201465501 B)
+2.2 Earth radii &nbsp;|&nbsp; 107.7 billion inhabitants
 
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -1208,8 +1238,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch16"></a>Pack (Kepler-439 B)
+## <a name="ch16"></a>Erebus (Kepler-107 B)
 
+1.6 Earth radii &nbsp;|&nbsp; 38.2 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -1285,8 +1317,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch17"></a>Atlas (Omi Crb B)
+## <a name="ch17"></a>Tulip (Kepler-148 C)
 
+3.6 Earth radii &nbsp;|&nbsp; 18.2 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -1361,8 +1395,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
+
+## <a name="ch18"></a>Apollo (Kepler-265 E)
 
-## <a name="ch18"></a>Marigold (Hd 100546 B)
+2.6 Earth radii &nbsp;|&nbsp; 109.3 billion inhabitants
 
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -1439,8 +1475,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch19"></a>Rán (Pr0211 B)
+## <a name="ch19"></a>Freesia (Kepler-280 B)
 
+1.5 Earth radii &nbsp;|&nbsp; 70.4 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -1516,8 +1554,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch20"></a>Dione (Bd-082823 B)
+## <a name="ch20"></a>Nox (Kepler-28 C)
 
+3.4 Earth radii &nbsp;|&nbsp; 108.9 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -1592,8 +1632,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
+
+## <a name="ch21"></a>Eurybia (Ct Cha B)
 
-## <a name="ch21"></a>Water (Koi-195 B)
+2.4 Jupiter radii &nbsp;|&nbsp; 3.5 trillion inhabitants
 
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -1670,8 +1712,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch22"></a>Sif (Hats-2 B)
+## <a name="ch22"></a>Ēostre (Kepler-271 B)
 
+0.9 Earth radii &nbsp;|&nbsp; 787.8 million inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -1746,8 +1790,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
+
+## <a name="ch23"></a>Bergamot (Kepler-385 C)
 
-## <a name="ch23"></a>Imperio (Hd 108341 B)
+3.0 Earth radii &nbsp;|&nbsp; 57.4 billion inhabitants
 
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -1824,8 +1870,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch24"></a>Eos (Hd 114729 A B)
+## <a name="ch24"></a>Repello (Kepler-241 B)
 
+2.3 Earth radii &nbsp;|&nbsp; 15.7 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -1900,8 +1948,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
+
+## <a name="ch25"></a>Themis (Corot-25 B)
 
-## <a name="ch25"></a>Rosemary (Hd 192699 B)
+1.1 Jupiter radii &nbsp;|&nbsp; 3.0 trillion inhabitants
 
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -1978,8 +2028,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch26"></a>Hestia (Wasp-65 B)
+## <a name="ch26"></a>Ladys (Hat-p-13 B)
 
+1.3 Jupiter radii &nbsp;|&nbsp; 5.7 trillion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -2055,8 +2107,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch27"></a>Metis (Gu Psc B)
+## <a name="ch27"></a>Lumos (Kepler-75 B)
 
+1.1 Jupiter radii &nbsp;|&nbsp; 90.6 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -2131,8 +2185,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
+
+## <a name="ch28"></a>Lotus (Kepler-314 C)
 
-## <a name="ch28"></a>Snotra (Hd 177830 A C)
+2.9 Earth radii &nbsp;|&nbsp; 199.2 billion inhabitants
 
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -2209,8 +2265,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch29"></a>Thalassa (Kepler-200 C)
+## <a name="ch29"></a>Dionysus (Kepler-412 B)
 
+1.3 Jupiter radii &nbsp;|&nbsp; 6.4 trillion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -2286,8 +2344,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch30"></a>Ophion (Kepler-270 B)
+## <a name="ch30"></a>Perses (Kepler-216 C)
 
+3.0 Earth radii &nbsp;|&nbsp; 282.4 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -2362,8 +2422,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
+
+## <a name="ch31"></a>Relashio (Kepler-278 C)
 
-## <a name="ch31"></a>Flipendo (Kepler-54 B)
+3.6 Earth radii &nbsp;|&nbsp; 118.7 billion inhabitants
 
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -2440,8 +2502,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch32"></a>Lóðurr (Hd 40307 G)
+## <a name="ch32"></a>Lavender (Koi-192 B)
 
+1.2 Jupiter radii &nbsp;|&nbsp; 1.0 trillion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -2517,8 +2581,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch33"></a>Protego (Wasp-42 B)
+## <a name="ch33"></a>Hermóðr (Wasp-2 A B)
 
+1.1 Jupiter radii &nbsp;|&nbsp; 3.7 trillion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -2593,8 +2659,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
+
+## <a name="ch34"></a>Duro (Wasp-24 B)
 
-## <a name="ch34"></a>Violet (Hd 73526 C)
+1.1 Jupiter radii &nbsp;|&nbsp; 3.0 trillion inhabitants
 
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -2671,8 +2739,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch35"></a>Vár (Hd 24064 B)
+## <a name="ch35"></a>Flipendo (Kepler-392 B)
 
+1.0 Earth radii &nbsp;|&nbsp; 1.1 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -2748,8 +2818,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch36"></a>Thyme (Corot-5 B)
+## <a name="ch36"></a>Geminio (Kepler-54 B)
 
+2.1 Earth radii &nbsp;|&nbsp; 98.9 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -2824,8 +2896,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
+
+## <a name="ch37"></a>Glisseo (Koi-1576.03)
 
-## <a name="ch37"></a>Hades (Hd 207832 C)
+1.6 Earth radii &nbsp;|&nbsp; 28.2 billion inhabitants
 
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -2902,8 +2976,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch38"></a>Diffindo (Hd 114386 C)
+## <a name="ch38"></a>Reparo (Hat-p-57 B)
 
+1.4 Jupiter radii &nbsp;|&nbsp; 3.1 trillion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -2979,8 +3055,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch39"></a>Bragi (Hd 28678 B)
+## <a name="ch39"></a>Hera (Pots-1 B)
 
+10.3 Earth radii &nbsp;|&nbsp; 1.7 trillion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -3055,8 +3133,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
+
+## <a name="ch40"></a>Forget (Koi-135 B)
 
-## <a name="ch40"></a>Iris (Kepler-314 C)
+1.1 Jupiter radii &nbsp;|&nbsp; 402.3 billion inhabitants
 
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -3133,8 +3213,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch41"></a>Phanes (Hd 148156 B)
+## <a name="ch41"></a>Hypnos (Kepler-245 B)
 
+2.6 Earth radii &nbsp;|&nbsp; 1.0 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -3210,8 +3292,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch42"></a>Vili (Hd 67087 C)
+## <a name="ch42"></a>Violet (Wasp-7 B)
 
+1.3 Jupiter radii &nbsp;|&nbsp; 3.6 trillion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -3286,8 +3370,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
+
+## <a name="ch43"></a>Primrose (Kepler-29 C)
 
-## <a name="ch43"></a>Geminio (Hd 108874 C)
+2.9 Earth radii &nbsp;|&nbsp; 38.4 billion inhabitants
 
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -3364,8 +3450,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch44"></a>Roses (Kepler-133 C)
+## <a name="ch44"></a>Point (Wasp-3 B)
 
+1.5 Jupiter radii &nbsp;|&nbsp; 7.1 trillion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -3441,8 +3529,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch45"></a>Theia (Hd 189567 B)
+## <a name="ch45"></a>Lofn (Hat-p-49 B)
 
+1.4 Jupiter radii &nbsp;|&nbsp; 4.8 trillion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -3517,8 +3607,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
+
+## <a name="ch46"></a>Coeus (Kepler-111 B)
 
-## <a name="ch46"></a>Hermes (Wasp-39 B)
+1.6 Earth radii &nbsp;|&nbsp; 4.3 billion inhabitants
 
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -3595,8 +3687,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch47"></a>Phoebe (Beta Ursae Minoris B)
+## <a name="ch47"></a>Aether (Kepler-83 D)
 
+1.9 Earth radii &nbsp;|&nbsp; 15.3 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -3671,8 +3765,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
+
+## <a name="ch48"></a>Protego (Epic 201577035 B)
 
-## <a name="ch48"></a>Obscuro (Wasp-63 B)
+4.0 Earth radii &nbsp;|&nbsp; 314.1 billion inhabitants
 
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -3749,8 +3845,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
 
-## <a name="ch49"></a>Nyx (16 Cygni B B)
+## <a name="ch49"></a>Quietus (Kepler-365 B)
 
+2.0 Earth radii &nbsp;|&nbsp; 139.2 billion inhabitants
+
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
@@ -3825,8 +3923,10 @@ meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow.
+
+## <a name="ch50"></a>Heather (Kepler-246 B)
 
-## <a name="ch50"></a>Sigyn (Koi-830 B)
+2.3 Earth radii &nbsp;|&nbsp; 69.5 billion inhabitants
 
 Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
 meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
