@@ -53,14 +53,20 @@ class MarkdownRenderer(Renderer):
 
         contents, body = [], []
         for chapter in story:
+            title = html.escape(chapter.title)
+            subtitle = html.escape(chapter.subtitle)
+            slug = chapter.slug
 
             contents.append('{num}. [{title}](#{slug})'.format_map({
                 'num': chapter.number,
-                'title': html.escape(chapter.title),
-                'slug': chapter.slug,
+                'title': '**{}** ({})'.format(title, subtitle),
+                'slug': slug,
             }))
 
-            body.append(self.render_heading(chapter.title, slug=chapter.slug))
+            body.append(self.render_heading(
+                '{} ({})'.format(title, subtitle),
+                slug=slug))
+
             for paragraph in chapter:
                 body.append(wrap(html.escape(paragraph)))
 
@@ -71,7 +77,6 @@ class MarkdownRenderer(Renderer):
     def render_heading(self, title, primary=False, slug=None):
         prefix = '# ' if primary else '## '
         link = '<a name="{}"></a>'.format(slug) if slug else ''
-        title = html.escape(title)
         return ''.join((prefix, link, title))
 
 
@@ -95,7 +100,10 @@ HTML_TEMPLATE = """\
 
 HTML_CHAPTER_TEMPLATE = """\
     <section>
-        <h1><a name="{slug}"></a>{title}</h1>
+        <header>
+            <h1><a name="{slug}"></a>{title}</h1>
+            <h2>{subtitle}</h2>
+        </header>
 
         {paragraphs}
     </section>
@@ -114,9 +122,12 @@ class HtmlRenderer(Renderer):
         contents, chapters = [], []
         for chapter in story:
             title = html.escape(chapter.title)
+            subtitle = html.escape(chapter.subtitle)
             slug = chapter.slug
 
-            contents.append('<li><a href="#{}">{}</a></li>'.format(slug, title))
+            contents.append(
+                '<li><a href="#{}"><b>{}</b> ({})</a></li>'
+                .format(slug, title, subtitle))
 
             paragraphs = (wrap('<p>{}</p>'.format(html.escape(par)),
                                indent=chapter_indent)
@@ -124,7 +135,8 @@ class HtmlRenderer(Renderer):
 
             chapters.append(HTML_CHAPTER_TEMPLATE.format_map({
                 'title': title,
-                'slug': chapter.slug,
+                'subtitle': subtitle,
+                'slug': slug,
                 'paragraphs': '\n\n'.join(paragraphs).lstrip(),
             }))
 

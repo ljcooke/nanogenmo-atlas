@@ -11,10 +11,12 @@ from .util import titlecase
 
 
 TITLE = 'Atlas of Remote Planets'
+
 DEFAULT_NUM_CHAPTERS = 50
+PLANET_NAME_MAXLEN = 8
 
 
-def planet_names():
+def planet_names(maxlen=PLANET_NAME_MAXLEN):
     names = []
 
     names += corpora.load('mythology/greek_gods')
@@ -27,7 +29,7 @@ def planet_names():
     many = corpora.load('mythology/norse_gods', key='norse_deities')
     names += many['gods'] + many['goddesses']
 
-    return set(filter(bool,
+    return set(filter(lambda s: s and len(s) <= maxlen,
                       (titlecase(name.split()[0]) for name in names)))
 
 
@@ -39,7 +41,9 @@ class Chapter:
         self.planet = planet
         self.human_name = name
         self.sci_name = planet.name
-        self.title = '{} ({})'.format(self.human_name, self.sci_name)
+
+        self.title = self.human_name
+        self.subtitle = self.sci_name
         self.paragraphs = [' '.join(['meow'] * 200).capitalize() + '.'] * 5
 
     def __iter__(self):
@@ -78,10 +82,6 @@ class Story:
 
     def __len__(self):
         return sum(len(ch) for ch in self.chapters)
-
-    def contents(self):
-        for i, chapter in enumerate(self.chapters):
-            yield (i + 1, chapter.title)
 
     def print_stats(self):
         print('GENERATED STORY')
