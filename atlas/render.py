@@ -67,6 +67,9 @@ class MarkdownRenderer(Renderer):
                 '{} ({})'.format(title, subtitle),
                 slug=slug))
 
+            body.append('{}'.format(' &nbsp;|&nbsp; '.join(
+                html.escape(point) for point in chapter.info)))
+
             for paragraph in chapter:
                 body.append(wrap(html.escape(paragraph)))
 
@@ -105,6 +108,10 @@ HTML_CHAPTER_TEMPLATE = """\
             <h2>{subtitle}</h2>
         </header>
 
+        <ul class="info">
+            {info}
+        </ul>
+
         {paragraphs}
     </section>
 """
@@ -116,8 +123,8 @@ class HtmlRenderer(Renderer):
 
     def render(self):
         story = self.story
-        contents_indent = ' ' * 12
-        chapter_indent = ' ' * 8
+        indent1 = ' ' * 8
+        indent2 = ' ' * 12
 
         contents, chapters = [], []
         for chapter in story:
@@ -129,20 +136,24 @@ class HtmlRenderer(Renderer):
                 '<li><a href="#{}"><b>{}</b> ({})</a></li>'
                 .format(slug, title, subtitle))
 
+            info = ('<li>{}</li>'.format(html.escape(point))
+                    for point in chapter.info)
+
             paragraphs = (wrap('<p>{}</p>'.format(html.escape(par)),
-                               indent=chapter_indent)
+                               indent=indent1)
                           for par in chapter)
 
             chapters.append(HTML_CHAPTER_TEMPLATE.format_map({
                 'title': title,
                 'subtitle': subtitle,
                 'slug': slug,
+                'info': ('\n' + indent2).join(info),
                 'paragraphs': '\n\n'.join(paragraphs).lstrip(),
             }))
 
         return HTML_TEMPLATE.format_map({
             'title': html.escape(story.title),
-            'contents': ('\n' + contents_indent).join(contents),
+            'contents': ('\n' + indent2).join(contents),
             'chapters': '\n'.join(chapters).lstrip(),
         })
 

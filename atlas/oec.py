@@ -1,16 +1,22 @@
 import random
 
 from .types import RandomStack, XmlCorpus
+from .util import sphere_surface_area
 from .util import titlecase
 
 
 EXOPLANET_CORPUS = 'data/oec-systems.xml'
 
-EPOCH = 2500
-LATEST_SETTLED = 3200
-
 EARTH_RADIUS_KM = 6371.0
 JUPITER_RADIUS_KM = 69911.0
+
+EARTH_SURFACE_KM2 = sphere_surface_area(EARTH_RADIUS_KM)
+EARTH_LAND_SURFACE_KM2 = EARTH_SURFACE_KM2 * 0.292
+
+
+EPOCH = 2500
+LATEST_SETTLED = 3200
+EARTH_POPULATION_MAX = 12e9
 
 
 class Entity:
@@ -35,15 +41,30 @@ class Planet(Entity):
 
         self.star = star
 
+        # convert the radius from Jupiter radii to km
         radius = self.xml.find('radius')
         try:
-            jupiter_radii = float(radius.text)
-            self.radius = jupiter_radii * JUPITER_RADIUS_KM
+            self.jupiter_radii = float(radius.text)
+            self.radius = self.jupiter_radii * JUPITER_RADIUS_KM
+            self.earth_radii = self.radius / EARTH_RADIUS_KM
         except (AttributeError, TypeError):
-            self.radius = None
+            self.radius = 0.0
+            return
+
+        self.surface_area = sphere_surface_area(self.radius)
+
+        # how much of the surface is habitable
+        self.habitable_ratio = random.randint(5, 95) * 0.01
+
+        # simple population model: generate a random population of Earth,
+        # then scale it according to the land surface area of the planet
+        earth_max = EARTH_POPULATION_MAX
+        earth_pop = random.randint(int(earth_max * 0.001), earth_max)
+        surface = self.surface_area * self.habitable_ratio
+        self.population = earth_pop * (surface / EARTH_LAND_SURFACE_KM2)
 
     def __bool__(self):
-        return bool(self.radius)
+        return self.radius > 0.0 and self.population > 1
 
 
 class Star(Entity):

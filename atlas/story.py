@@ -7,7 +7,7 @@ from . import corpora
 from . import oec
 from .render import RENDERERS
 from .types import RandomStack
-from .util import titlecase
+from .util import human_num, titlecase
 
 
 TITLE = 'Atlas of Remote Planets'
@@ -44,7 +44,18 @@ class Chapter:
 
         self.title = self.human_name
         self.subtitle = self.sci_name
-        self.paragraphs = [' '.join(['meow'] * 200).capitalize() + '.'] * 5
+
+        self.info = [
+            ('%s Jupiter radii' % human_num(planet.jupiter_radii)
+             if planet.jupiter_radii >= 1.0
+             else '%s Earth radii' % human_num(planet.earth_radii)),
+            #'%.1f km²' % planet.surface_area,
+            '%s inhabitants' % human_num(planet.population),
+        ]
+        self.paragraphs = []
+
+        # lorem ipsum
+        self.paragraphs += [' '.join(['meow'] * 200).capitalize() + '.'] * 5
 
     def __iter__(self):
         return iter(self.paragraphs)
