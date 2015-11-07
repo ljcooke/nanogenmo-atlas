@@ -1,6 +1,8 @@
-.PHONY: all bootstrap clean
+.PHONY: all story bootstrap clean
 
-all:
+all: bootstrap story
+
+story:
 	./atlas.py generate
 
 bootstrap:
