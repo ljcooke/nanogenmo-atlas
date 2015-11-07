@@ -9,6 +9,9 @@ EXOPLANET_CORPUS = 'data/oec-systems.xml'
 EPOCH = 2500
 LATEST_SETTLED = 3200
 
+EARTH_RADIUS_KM = 6371.0
+JUPITER_RADIUS_KM = 69911.0
+
 
 class Entity:
 
@@ -32,6 +35,16 @@ class Planet(Entity):
 
         self.star = star
 
+        radius = self.xml.find('radius')
+        try:
+            jupiter_radii = float(radius.text)
+            self.radius = jupiter_radii * JUPITER_RADIUS_KM
+        except (AttributeError, TypeError):
+            self.radius = None
+
+    def __bool__(self):
+        return bool(self.radius)
+
 
 class Star(Entity):
 
@@ -39,8 +52,9 @@ class Star(Entity):
         super().__init__(xml)
 
         self.system = system
-        self.planets = tuple(Planet(node, self)
-                             for node in xml.findall('.//planet'))
+
+        planets = (Planet(node, self) for node in xml.findall('.//planet'))
+        self.planets = tuple(p for p in planets if p)
 
     def random_planet(self):
         return random.choice(self.planets)
@@ -107,6 +121,7 @@ class Exoplanets(XmlCorpus):
     def print_stats(self):
         total_systems = len(self.systems)
         star_counts, planet_counts = [], []
+        radius_counts = []
         years_settled = []
 
         for system in self.systems:
@@ -116,21 +131,30 @@ class Exoplanets(XmlCorpus):
             for star in system.stars:
                 planet_counts.append(len(star.planets))
 
+                for planet in star.planets:
+                    radius_counts.append(planet.radius)
+
         total_stars, total_planets = sum(star_counts), sum(planet_counts)
 
         print('OPEN EXOPLANET CATALOGUE')
         print('')
-        print('Total Systems:     %8d.' % total_systems)
-        print('Total Stars:       %8d.' % total_stars)
-        print('Total Planets:     %8d.' % total_planets)
+        print('Total Systems:    %9d.' % total_systems)
+        print('Total Stars:      %9d.' % total_stars)
+        print('Total Planets:    %9d.' % total_planets)
         print('')
-        print('Minimum Stars:     %8d.' % min(star_counts))
-        print('Maximum Stars:     %8d.' % max(star_counts))
-        print('Average Stars:     %13.4f' % (float(total_stars) / len(star_counts)))
+        print('Minimum Stars:    %9d.' % min(star_counts))
+        print('Maximum Stars:    %9d.' % max(star_counts))
+        print('Average Stars:    %14.4f' % (float(total_stars) / len(star_counts)))
         print('')
-        print('Minimum Planets:   %8d.' % min(planet_counts))
-        print('Maximum Planets:   %8d.' % max(planet_counts))
-        print('Average Planets:   %13.4f' % (float(total_planets) / len(planet_counts)))
+        print('Minimum Planets:  %9d.' % min(planet_counts))
+        print('Maximum Planets:  %9d.' % max(planet_counts))
+        print('Average Planets:  %14.4f' % (float(total_planets) / len(planet_counts)))
         print('')
-        print('Earliest Settled:  %8d CE' % min(years_settled))
-        print('Latest Settled:    %8d CE' % max(years_settled))
+        print('Minimum Radius:   %14.4f km' % min(radius_counts))
+        print('Maximum Radius:   %14.4f km' % max(radius_counts))
+        print('Average Radius:   %14.4f km' % (sum(radius_counts) / len(radius_counts)))
+        print('Earth Radius:     %14.4f km' % EARTH_RADIUS_KM)
+        print('Jupiter Radius:   %14.4f km' % JUPITER_RADIUS_KM)
+        print('')
+        print('Earliest Settled: %9d CE' % min(years_settled))
+        print('Latest Settled:   %9d CE' % max(years_settled))
