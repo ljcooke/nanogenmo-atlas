@@ -1,7 +1,10 @@
-all: bootstrap
+.PHONY: all bootstrap clean
+
+all:
+	./atlas.py generate
 
 bootstrap:
 	./bootstrap.sh
 
 clean:
-	(cd corpus/OpenExoplanetCatalogue && rm -f ./*.xml ./*.xml~)
+	rm -rf data
