@@ -47,6 +47,7 @@ def main():
     parser.add_argument('action', choices=('generate', 'stats'))
     parser.add_argument('-c', '--chapters', type=int,
                         default=story.DEFAULT_NUM_CHAPTERS)
+    parser.add_argument('-d', '--output-dir', default='output')
 
     if not sys.argv[1:]:
         parser.print_help()
@@ -56,8 +57,7 @@ def main():
 
     if args.action == 'generate':
         atlas = story.Story(num_chapters=args.chapters)
-        for number, title in atlas.contents():
-            print('{}. {}'.format(number, title))
+        atlas.render_in_dir(args.output_dir)
     elif args.action == 'stats':
         print_stats(num_chapters=args.chapters)
     else:

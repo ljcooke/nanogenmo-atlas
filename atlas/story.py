@@ -1,12 +1,16 @@
+import locale
+import os
 import sys
 from itertools import chain
 
 from . import corpora
 from . import oec
+from .render import RENDERERS
 from .types import RandomStack
 from .util import titlecase
 
 
+TITLE = 'Atlas of Remote Planets'
 DEFAULT_NUM_CHAPTERS = 50
 
 
@@ -30,15 +34,18 @@ def planet_names():
 class Chapter:
 
     def __init__(self, number, planet, name):
+        self.number = number
+        self.slug = 'ch{}'.format(number)
         self.planet = planet
         self.human_name = name
         self.sci_name = planet.name
         self.title = '{} ({})'.format(self.human_name, self.sci_name)
-        self.paragraphs = [
-            'Hello, world.'
-        ]
+        self.paragraphs = [' '.join(['meow'] * 200).capitalize() + '.'] * 5
 
-    def word_count(self):
+    def __iter__(self):
+        return iter(self.paragraphs)
+
+    def __len__(self):
         words = chain.from_iterable(p.split() for p in self.paragraphs)
         return sum(1 for w in words if len(w) > 1)
 
@@ -46,9 +53,10 @@ class Chapter:
 class Story:
 
     def __init__(self, num_chapters=DEFAULT_NUM_CHAPTERS):
-        self.exoplanets = oec.Exoplanets()
+        self.title = TITLE
 
-        systems = self.exoplanets.stack()
+        exoplanets = oec.Exoplanets()
+        systems = exoplanets.stack()
         names = RandomStack(planet_names())
 
         chapters = []
@@ -65,15 +73,29 @@ class Story:
             chapters.append(Chapter(i, planet, name))
         self.chapters = chapters
 
+    def __iter__(self):
+        return iter(self.chapters)
+
+    def __len__(self):
+        return sum(len(ch) for ch in self.chapters)
+
     def contents(self):
         for i, chapter in enumerate(self.chapters):
             yield (i + 1, chapter.title)
-
-    def word_count(self):
-        return sum(ch.word_count() for ch in self.chapters)
 
     def print_stats(self):
         print('GENERATED STORY')
         print('')
         print('Chapter Count:     %8d.' % len(self.chapters))
-        print('Word Count:        %8d.' % self.word_count())
+        print('Word Count:        %8d.' % len(self))
+
+    def render_in_dir(self, dirname):
+        print('Word count: {}'.format(len(self)))
+
+        if not os.path.isdir(dirname):
+            print('Creating directory: {}'.format(dirname))
+            os.mkdir(dirname)
+
+        for cls in RENDERERS:
+            renderer = cls(story=self)
+            renderer.render_file(dirname)
