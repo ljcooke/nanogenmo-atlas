@@ -6,8 +6,8 @@ from .util import titlecase
 
 EXOPLANET_CORPUS = 'data/oec-systems.xml'
 
-EPOCH = 2300
-LATEST_SETTLED = 2700
+EPOCH = 2500
+LATEST_SETTLED = 3200
 
 
 class Entity:
@@ -73,6 +73,8 @@ class System(Entity):
             # TODO: use ly_min and ly_max for random variance
             ly = (ly_min + ly_max) * 0.5
             self.year_settled = int(EPOCH + random.randint(1, 100) + ly)
+            if self.year_settled > LATEST_SETTLED:
+                self.year_settled = 0
         except AttributeError:
             self.year_settled = 0
 
