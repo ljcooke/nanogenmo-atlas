@@ -8,10 +8,13 @@ import argparse
 import os
 import sys
 
-from . import oec, story
+from . import corpora
+from . import oec
+from . import story
 
 
-PREREQUISITES = (oec.EXOPLANET_CORPUS, )
+PREREQUISITES = (oec.EXOPLANET_CORPUS,
+                 corpora.DATA_DIR)
 
 
 def print_stats():
@@ -32,7 +35,7 @@ def check_prerequisites():
     if all(check_exists(fn) for fn in PREREQUISITES):
         return True
     else:
-        sys.stderr.write('Please run ./bootstrap.sh\n')
+        sys.stderr.write("Please run 'make bootstrap'\n")
 
 def main():
     if not check_prerequisites():
