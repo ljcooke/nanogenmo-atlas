@@ -54,7 +54,7 @@ class MarkdownRenderer(Renderer):
         contents, body = [], []
         for chapter in story:
 
-            contents.append('{num}. [{title}]({slug})'.format_map({
+            contents.append('{num}. [{title}](#{slug})'.format_map({
                 'num': chapter.number,
                 'title': html.escape(chapter.title),
                 'slug': chapter.slug,
@@ -116,7 +116,7 @@ class HtmlRenderer(Renderer):
             title = html.escape(chapter.title)
             slug = chapter.slug
 
-            contents.append('<li><a href="{}">{}</a></li>'.format(slug, title))
+            contents.append('<li><a href="#{}">{}</a></li>'.format(slug, title))
 
             paragraphs = (wrap('<p>{}</p>'.format(html.escape(par)),
                                indent=chapter_indent)
