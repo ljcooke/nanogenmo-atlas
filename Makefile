@@ -1,4 +1,4 @@
-.PHONY: all story bootstrap clean
+.PHONY: all story bootstrap stats clean
 
 all: bootstrap story
 
@@ -7,6 +7,9 @@ story:
 
 bootstrap:
 	./bootstrap.sh
+
+stats:
+	./atlas.py stats
 
 clean:
 	rm -rf data
